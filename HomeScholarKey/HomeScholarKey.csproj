@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,6 +8,15 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\image1.jpg" />
+    <None Include="wwwroot\images\image2.jpg" />
+    <None Include="wwwroot\images\image3.jpg" />
+    <None Include="wwwroot\images\image4.jpg" />
+    <None Include="wwwroot\images\image5.jpg" />
   </ItemGroup>
 
 </Project>

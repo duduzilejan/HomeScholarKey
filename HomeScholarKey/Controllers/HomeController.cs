@@ -8,5 +8,13 @@ namespace HomeScholarKey.Controllers
         {
             return View();
         }
+        public IActionResult ModalPopUp()
+        {
+            return View();
+        }
+        public IActionResult carousel()
+        {
+            return View();
+        }
     }
 }
